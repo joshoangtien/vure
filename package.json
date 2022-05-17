@@ -1,0 +1,28 @@
+{
+  "name": "vure",
+  "version": "1.0.6",
+  "description": "CLI based on Vure to generate your project easily",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src"
+  },
+  "keywords": [
+    "vure",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshoangtien/vure.git"
+  },
+  "author": "joshoangtien",
+  "license": "MIT",
+  "bin": {
+    "vure": "./src/index.js"
+  },
+  "dependencies": {
+    "commander": "^9.1.0",
+    "degit": "^2.8.4",
+    "inquirer": "^8.2.2",
+    "lodash.kebabcase": "^4.1.1"
+  }
+}
